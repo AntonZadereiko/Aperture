@@ -202,3 +202,61 @@ background-image: url("../images/main.jpg");
     line-height: 20px;
     color: #C0C0C0;
 }
+.leaf{
+    background-image: url("../images/leaf.jpg");
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    position: relative;
+}
+.leaf_container{
+    max-width: 273px;
+    margin-right: 87px;
+}
+.leaf_title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.leaf_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.himalayas{
+    background-image: url("../images/himalayas.jpg");
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    position: relative;
+}
+.himalayas_container{
+    max-width: 254px;
+    margin-right: 106px;
+}
+.himalayas_title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.himalayas_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
