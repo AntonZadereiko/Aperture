@@ -6,7 +6,8 @@ header {
     background-color: #181818;
     padding: 24px 0;
 }
-.main_banner .container {
+.container {
+  margin: auto;
     max-width: 1200px;
 }
 header .container {
@@ -54,6 +55,9 @@ background-image: url("../images/main.jpg");
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+.main_banner .container{
+    margin: inherit;
 }
  .bottom_icon {
     position: absolute;
@@ -262,9 +266,7 @@ background-image: url("../images/main.jpg");
 }
 .what_we_do{
     padding: 113px 0 100px 0;
-    min-height: 1558px;
     background: #000000;
-    border-radius: 0;
 }
 .what_we_do_wrapper{
     max-width: 1200px;
@@ -289,16 +291,13 @@ background-image: url("../images/main.jpg");
     color: #C0C0C0;
     padding: 15px 0 42px;
 }
-.what_we_do .container{
+.what_we_do_container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .what_we_do_product{
-    background-image: url("../images/product.jpg");
-    background-size: cover;
     max-width: 576px;
-    min-height: 600px;
     position: relative;
 }
 .what_we_do_content{
@@ -345,4 +344,8 @@ background-image: url("../images/archicture.jpg");
     min-height: 600px;
     position: relative;
     background-image: url("../images/wildlife.jpg ");
+}
+.what_we_do_image{
+    display: block;
+    width: 100%;
 }
