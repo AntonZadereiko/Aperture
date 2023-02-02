@@ -269,7 +269,7 @@ background-image: url("../images/main.jpg");
     background: #000000;
 }
 .what_we_do_wrapper{
-    max-width: 1200px;
+    max-width: 1170px;
     margin: auto;
 }
 .what_we_do_title{
@@ -299,6 +299,7 @@ background-image: url("../images/main.jpg");
 .what_we_do_product{
     max-width: 576px;
     position: relative;
+    margin-bottom: 16px;
 }
 .what_we_do_content{
     max-width: 514px;
@@ -330,6 +331,7 @@ background-image: url("../images/archicture.jpg");
     max-width: 576px;
     min-height: 600px;
     position: relative;
+    margin-bottom: 16px;
 }
 .what_we_do_drone{
     background-image: url("../images/drone.jpg");
@@ -348,4 +350,57 @@ background-image: url("../images/archicture.jpg");
 .what_we_do_image{
     display: block;
     width: 100%;
+}
+footer{
+    padding: 100px 0;
+    background-color: black;
+    color: white;
+}
+footer .container{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #FFFFFF;
+    padding-bottom: 26px;
+}
+footer .right_sub-menu{
+    display: flex;
+    align-items: flex-start;
+}
+footer .right_sub-menu ul{
+    list-style: none;
+}
+footer .right_sub-menu ul:first-of-type{
+    margin-right: 55px;
+}
+footer .right_sub-menu ul:last-of-type{
+    margin-right: 100px;
+}
+footer form{
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    max-width: 458px;
+    width: 100%;
+    height: 52px;
+    padding: 11px 6px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer form .form-control{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 80%;
+    display: inline-block;
+}
+footer form button{
+    background-color: black;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    width: 63px;
+    cursor: pointer;
 }
