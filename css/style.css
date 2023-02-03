@@ -413,12 +413,38 @@ footer .container{
     border-bottom: solid 2px #FFFFFF;
     padding-bottom: 26px;
 }
+.left_logo{
+    max-width: 440px;
+}
+footer .container:last-child{
+    border: none;
+}
 footer .right_sub-menu{
     display: flex;
     align-items: flex-start;
 }
 footer .right_sub-menu ul{
     list-style: none;
+}
+footer .right_sub-menu ul li{
+    padding-bottom: 10px;
+}
+footer .right_sub-menu ul li:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+footer .right_sub-menu ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 footer .right_sub-menu ul:first-of-type{
     margin-right: 55px;
