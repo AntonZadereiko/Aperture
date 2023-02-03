@@ -351,6 +351,56 @@ background-image: url("../images/archicture.jpg");
     display: block;
     width: 100%;
 }
+.tools{
+    position: relative;
+    background-color: black;
+}
+.tools .information{
+    max-width: 514px;
+    color: white;
+}
+.tools .container{
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 540px;
+}
+.tools .img_bg{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-image: url("../images/tools.jpg");
+    background-size: cover;
+    top: 0;
+}
+.tools h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-bottom: 6px
+}
+.tools h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 14px
+}
+.tools p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px
+}
 footer{
     padding: 100px 0;
     background-color: black;
