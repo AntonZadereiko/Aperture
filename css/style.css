@@ -491,7 +491,7 @@ footer h4{
 .left_logo{
     padding: 36px 0 10px;
 }
-footer form .form-control{
+footer form .form_control{
     background-color: transparent;
     border: none;
     height: 30px;
@@ -522,4 +522,36 @@ footer .icons li:last-of-type{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.clients{
+    background-color: black;
+    padding: 113px 0 140px;
+}
+.clients .container{
+    max-width: 1076px;
+}
+.clients_company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1076px;
+    padding-top: 82px;
+    margin: auto;
+}
+.clients h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.clients h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 15px;
 }
