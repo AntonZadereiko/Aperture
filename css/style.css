@@ -429,7 +429,6 @@ footer .left_logo p{
 footer .container:last-child{
     border: none;
     padding-top: 56px;
-    padding-bottom: 100px;
 }
 footer .right_sub-menu{
     display: flex;
