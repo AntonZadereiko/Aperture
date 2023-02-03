@@ -416,8 +416,20 @@ footer .container{
 .left_logo{
     max-width: 440px;
 }
+footer .left_logo a{
+    padding: 100px 0 20px 0
+}
+footer .left_logo p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 footer .container:last-child{
     border: none;
+    padding-top: 56px;
+    padding-bottom: 100px;
 }
 footer .right_sub-menu{
     display: flex;
@@ -464,6 +476,20 @@ footer form{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 40px 0 14px;
+}
+footer h4{
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.left_logo{
+    padding: 36px 0 10px;
 }
 footer form .form-control{
     background-color: transparent;
@@ -479,4 +505,21 @@ footer form button{
     border-radius: 11px;
     width: 63px;
     cursor: pointer;
+}
+footer .icons li{
+    margin: 0 14px;
+}
+.icons{
+    list-style: none;
+    display: flex;
+}
+footer .icons li:last-of-type{
+    margin-right: 0;
+}
+.last_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
