@@ -534,7 +534,6 @@ footer .icons li:last-of-type{
     justify-content: space-between;
     align-items: center;
     max-width: 1076px;
-    padding-top: 82px;
     margin: auto;
 }
 .clients h4{
@@ -544,6 +543,7 @@ footer .icons li:last-of-type{
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 .clients h5{
     font-family: 'Poppins', sans-serif;
@@ -552,5 +552,5 @@ footer .icons li:last-of-type{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    padding-top: 15px;
+    margin-bottom: 82px;
 }
