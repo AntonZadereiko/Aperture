@@ -487,8 +487,9 @@ footer h4{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.left_logo{
-    padding: 36px 0 10px;
+footer .container:nth-child(2){
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 footer form .form_control{
     background-color: transparent;
