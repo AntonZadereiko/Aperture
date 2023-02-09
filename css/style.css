@@ -305,7 +305,7 @@ background-image: url("../images/main.jpg");
     max-width: 514px;
     position: absolute;
     left: 30px;
-    bottom: 30px
+    bottom: 30px;
 }
 .what_we_do_caption{
     font-family: 'Poppins', sans-serif;
@@ -405,6 +405,9 @@ footer{
     padding: 100px 0;
     background-color: black;
     color: white;
+}
+.first_text{
+    max-width: 440px;
 }
 footer .container{
     max-width: 1168px;
