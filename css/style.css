@@ -540,6 +540,17 @@ footer .icons li:last-of-type{
     max-width: 1076px;
     margin: auto;
 }
+.clients_company a{
+    max-width: 128px;
+    display: inline-block;
+}
+.owl-item{
+    text-align: center;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
 .clients h4{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
